@@ -125,4 +125,4 @@ ON courses.id = exams.course_id
 
 WHERE exam_student.vote > 18
 
-GROUP BY student_id;
+GROUP BY exam_student.student_id;
